@@ -15,11 +15,6 @@ import (
 
 const (
 	backgroundColor = "#000000"
-
-	buyMeACoffeeURL     = "https://www.buymeacoffee.com/maxence"
-	githubURL           = "https://github.com/maxence-charriere/lofimusic"
-	twitterURL          = "https://twitter.com/jonhymaxoo"
-	coinbaseBusinessURL = "https://commerce.coinbase.com/checkout/851320a4-35b5-41f1-897b-74dd5ee207ae"
 )
 
 type options struct {
@@ -67,7 +62,7 @@ func main() {
 			"pwa",
 		},
 		LoadingLabel: "Lofi music player to work, study and relax.",
-		Name:         "Lofimusic",
+		Name:         "Vikke's Lofimusic",
 		Image:        "https://lofimusic.app/web/covers/lofimusic.png",
 		RawHeaders: []string{
 			`<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -93,7 +88,7 @@ func main() {
 		},
 
 		ThemeColor: backgroundColor,
-		Title:      "Lofimusic",
+		Title:      "Vikke's Lofimusic",
 	}
 
 	opts := options{Port: 4000}

@@ -3,7 +3,7 @@ build:
 	@go build -o docs/lofimusic ./bin/lofimusic
 
 run: build
-	@cd docs && ./lofimusic local
+	@cd docs && ./lofimusic local --port 4002
 
 
 build-github: build
