@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  lofi:
+    build:
+      context: .
+      dockerfile: Containerfile
+    restart: unless-stopped
+    ports:
+      - 4001:80
